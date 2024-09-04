@@ -1,0 +1,124 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820e0ef1e24a7ff32e739d05d7ad42054a38da873e640d4cff10bc6f1cf7416cab1"
+        },
+        "signature": {
+          "@value": "84582aa201276761646472657373581d61024640e46849827cb49da622b241b4d9043e79ff986d754d97c0964ca166686173686564f45844566572696679204452657020647265703134706a6d38797474363832776b70346a636567646a327965726b63793961323078657676703775646c63643067676a7864756458408e478b4a9f8385f14649162ffc679aec4319559cf871a1e714d2a36fb5d8eba48657f6951639903658cc4d4c4d5e8f7b19ef6e7e19a1cd97b6c1ed7ea9696006"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "Self Sovereignty| Co-Founder ADA Ghost Fund | Risk Taker| Dad"
+    },
+    "email": {
+      "@value": "theoccryptobro@gmail.com"
+    },
+    "givenName": {
+      "@value": "Chris O"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/Qmax1qGov7bmskwFg9JUUXgJWqqgntbchzA4nmmWWy3uWJ",
+      "sha256": "349273d39bb3f701b19305735709c2fe6706652f01e60ae454162cb5c766e71e"
+    },
+    "motivations": {
+      "@value": "Self Sovereignty, creating an inclusive global financial system open to all. Banking the unbanked. Aligned with Satoshi's vision.\nMy  purpose in becoming a dRep is to represent the interests, perspectives, & advocate for our retail community, the regular individuals who make up the silent majority of our ecosystem in addition to our startup projects/entrepreneurs.\n\n"
+    },
+    "objectives": {
+      "@value": "✅1. Adoption /User acquisition/Blockchain Interoperability \n✅2. Ecosystem growth hacking\n✅3. Access to capital for startups\n✅4. Responsible Treasury Management for long term protocol viability/health\n✅5. Increase blockchain performance, maintain/improve rate of innovation, to accommodate future use on a global scale.\n✅6. Create an atmosphere of transparency & accountability community wide.\n"
+    },
+    "paymentAddress": {
+      "@value": "$chris.o"
+    },
+    "qualifications": {
+      "@value": "10yrs of Crypto Industry Experience"
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/TheOCcryptobro"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Telegram"
+        },
+        "uri": {
+          "@value": "https://t.me/ChrisO_DRep_Discuss"
+        }
+      }
+    ]
+  }
+}

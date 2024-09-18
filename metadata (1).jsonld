@@ -1,0 +1,164 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "doNotList": "CIP119:doNotList",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a4010103272006215820e0ef1e24a7ff32e739d05d7ad42054a38da873e640d4cff10bc6f1cf7416cab1"
+        },
+        "signature": {
+          "@value": "845846a201276761646472657373583901024640e46849827cb49da622b241b4d9043e79ff986d754d97c0964c194e07b4fe57343c0ca5e4a70309f807ba26c1d24eb79acf2ce5afb7a166686173686564f45844566572696679204452657020647265703134706a6d38797474363832776b70346a636567646a327965726b63793961323078657676703775646c63643067676a7864756458408600ad83345c4f0bfb0b5a805b91641dddae94f434c2e7ef7e92ebe0b6811c5c485efa362593ab960dbe55f48d359dd4fb1b4e732b939f29c5a990ed74983906"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "Self Sovereignty 🛡️| #Cardano OG |Co-Founder  @ADA_GhostFund | Risk Taker| Dad"
+    },
+    "doNotList": {
+      "@value": "false"
+    },
+    "email": {
+      "@value": "theoccryptobro@gmail.com"
+    },
+    "givenName": {
+      "@value": "Chris-O"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/Qmax1qGov7bmskwFg9JUUXgJWqqgntbchzA4nmmWWy3uWJ",
+      "sha256": "349273d39bb3f701b19305735709c2fe6706652f01e60ae454162cb5c766e71e"
+    },
+    "motivations": {
+      "@value": "My purpose in becoming a dRep is to represent the interests, perspectives, & advocate for our retail community, the regular individuals who make up the silent majority of our ecosystem in addition to our startup projects/entrepreneurs. I will work to drive adoption and development of Cardano as the next open global financial operating & public digital infrastructure system. I envision a world where social and financial systems are open, inclusive, fair, accessible, and better for all.\n\nMy plan is to support our entrepreneurs through a blend of community-driven funding, formal proposal systems, venture capital initiatives, and a growing infrastructure that's both academically rigorous and practically supportive. This environment not only nurtures new ideas but also provides tangible support mechanisms for those ideas to flourish into sustainable businesses or projects within the blockchain space and Cardano.\n\n"
+    },
+    "objectives": {
+      "@value": "✅1. Adoption /User acquisition/Blockchain Interoperability \n✅2. Ecosystem growth hacking\n✅3. Access to capital for startups\n✅4. Responsible Treasury Management for long term protocol viability/health\n✅5. Increase blockchain performance, maintain/improve rate of innovation, to accommodate future use on a global scale.\n✅6. Create an atmosphere of transparency & accountability community wide.\n\nHere my detailed DRep position paper:\n\nhttps://x.com/TheOCcryptobro/status/1832252928998175196\n"
+    },
+    "paymentAddress": {
+      "@value": "$chris.o"
+    },
+    "qualifications": {
+      "@value": "10yrs of Crypto Industry Experience"
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/TheOCcryptobro"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "DRep Delegator Telegram Chat"
+        },
+        "uri": {
+          "@value": "https://t.me/ChrisO_DRep_Discuss"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Townhall for delegators on #Cardano platform: https://x.com/joizapp"
+        },
+        "uri": {
+          "@value": "https://t.co/GrowJOq6nD"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Automated announcements & mass communication: http://RYP.io "
+        },
+        "uri": {
+          "@value": "https://t.co/BaKGfyHlKu"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Summon DAO: Delegator Polling/Voting"
+        },
+        "uri": {
+          "@value": "https://app.summonplatform.io/community/073ad269-16af-43d3-9fb1-1b300485cfa4?tab=profile"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/TheOCcryptobro"
+        }
+      }
+    ]
+  }
+}
